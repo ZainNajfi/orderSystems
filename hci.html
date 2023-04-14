@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lunch Ordering System</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+    <h1>Lunch Ordering System</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter name">
+        <label for="meal">Meal:</label>
+        <select id="meal" name="meal" required>
+			<option value="">Select a meal</option>
+			<option value="burger">Burger</option>
+			<option value="pizza">Pizza</option>
+			<option value="salad">Salad</option>
+		</select>
+        <label for="date">Order for:</label>
+        <input type="checkbox" id="date" name="date" value="future">
+        <label for="date">Future date</label>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <div>
+        <a style="color: aliceblue;text-decoration: none;" href="https://github.com/ZainNajfi" target="_blank">Check on github</a>
+    </div>
+    <div id="feedback"></div>
+    <script src="java.js"></script>
+</body>
+
+</html>
